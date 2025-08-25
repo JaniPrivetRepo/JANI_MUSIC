@@ -19,13 +19,13 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1700))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002060224175))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002734717816))
 LOGGER_ID = LOG_GROUP_ID
 # Get this value from @ISTKHAR_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7633166578"))
+OWNER_ID = int(getenv("OWNER_ID", "7766262190"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -38,15 +38,15 @@ API_KEY = getenv("API_KEY", 'NxGBNexGenBots901703') # youtube song api ke
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ISTKHAR-king/ISTKHAR_MUSIC",
+    "https://github.com/JaniPrivetRepo/JANI_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamIstkhar")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+--i-JpgGkc8wY2E9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jani_RP")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+OZzH_0Lht0BmYjM9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
